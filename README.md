@@ -10,4 +10,5 @@ Every day I explore new Java concepts — from core features to modern Java 8+ u
 | Day | Topic | Highlights |
 |-----|--------|-------------|
 | 1 |  Java 8 Features  | Filter,Map ,Lambda Expressions
+| 2 |  Java 8 Features  | Reduce,Sorting
 | 
