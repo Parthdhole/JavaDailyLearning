@@ -11,4 +11,5 @@ Every day I explore new Java concepts — from core features to modern Java 8+ u
 |-----|--------|-------------|
 | 1 |  Java 8 Features  | Filter,Map ,Lambda Expressions
 | 2 |  Java 8 Features  | Reduce,Sorting
-| 
+| 3 |  java 8 Features  | method refrence with sort,reduce,map
+| 4 |  java 8 Features  | sequence stream and parallel starem
