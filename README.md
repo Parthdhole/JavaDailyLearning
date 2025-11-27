@@ -156,6 +156,66 @@ by using this we can cannot be inherited the class , final method cannot be over
 
 
 
+                                             Arrays :-
+ 
+                                                        Arrays are use to  store the group element's as a single object in contagious memory location
+                                                        Arrays are fix in size one's we create a array we cannot increase or decreases the size
+                                                        Arrays not support any method operation 
+                                                       it can store the primitive data and object primitive
+
+  
+                                                                                    Collection:-
+
+                                                        Collection are the root interface of collection frame work
+                                                        it represents the group of elements as a single unit
+                                                        It can store both homogenous & heterogenous data. 
+                                                        Collections are growable in nature it will increase & decrease the size as per the need.
+                                                        it can have methods to perform operation
+                                                        Collections can store only object data. 
+
+                                  -collection is use to store the group of object as a single entity collection is a interfaces which has multiple implementation
+                                   list,set and queue 
+
+
+                                                                There are two part's of collections framework
+                                                                                      |
+                                                                                      |
+                                                                       Collection                map     
+                                                                             
+
+                                                                                       collection    
+                                                                                          | 
+                                                                          list           set               queue
+                                                                           |
+                                                                           
+                                                            ArrayList(c)    LinkedList(c)     vector(c) 
+                                                                                  |
+                                                                               stack(c)
+
+
+
+
+
+                                                     1)Arraylist:-
+                                                      Array List is implementation class of list interface
+                                                      it are allow duplicates and insertion order is maintained
+                                                      it also good for reading operation  because it can access every element with same speed
+                                                      but it not good for frequent writing operation because it create a new array and copied element on array to another 
+                                                      and it is costly and timing consuming.   
+                                                      and under line data structure is resizable array
+                                                                                                                
+
+
+                                                     2)LinkedList:-
+                                                      LinkedList is implementation class of the list interface
+                                                      it are allow duplicates also and insertion order is preserve 
+                                                      it is good for writing orations and bad for reading operation 
+                                                      underline data structure is doubly linked list 
+                             
+
+
+
+
 
 
 
