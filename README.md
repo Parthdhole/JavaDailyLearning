@@ -211,6 +211,99 @@ by using this we can cannot be inherited the class , final method cannot be over
                                                       it are allow duplicates also and insertion order is preserve 
                                                       it is good for writing orations and bad for reading operation 
                                                       underline data structure is doubly linked list 
+
+
+
+
+
+                                                      v
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+--------- The method that capable to return a object is called factory method  
+          the factory method internally create and delete the object using new keyword
+    
+                                                           
+          Runtime R=Runtime.getRuntime();
+   
+        public static void main(String[] args) {
+        Runtime r =Runtime.getRuntime();
+        System.out.println("tot  memory"+r.totalMemory());
+        System.out.println("tot free memory"+r.freeMemory());
+        for(int i=0;i<1000000;i++){
+            GarbageColector gcc = new GarbageColector();
+        }
+        System.out.println("tot  memory"+r.totalMemory());
+        r.gc();
+        System.out.println("tot free memory"+r.freeMemory());
+
+
+
+
+    }
+
+
+Scenario base :-
+class Emp{}
+
+class Test
+ Emp m1(){
+        Emp gcc1 = new Emp();
+         Emp gcc2 = new Emp(); // this object is eligibal for gc
+        System.out.println(gcc1);
+        return gcc1;
+    }
+main
+{
+Emp e = new Test().m1();
+  // here we holding the object the on object gcc1 so gcc2 is destroyed 
+}
+
+
+---------------***---------------------------
+class Emp{}
+
+class Test
+ Emp m1(){
+        Emp gcc1 = new Emp();
+         Emp gcc2 = new Emp(); // this object is eligibal for gc
+        System.out.println(gcc1);
+        return gcc1;
+    }
+main
+{
+Emp e = new Test().m1();
+  // here we holding the object the on object gcc1 so gcc2 is destroyed 
+}
+
+
+
+
+
+
+
+
+
                              
 
 
