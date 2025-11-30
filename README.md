@@ -298,7 +298,7 @@ Emp e = new Test().m1();
 
 
 
-
+todya i was learned about the Tostring internalls and hashcode 
 
 
 
