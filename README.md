@@ -302,9 +302,10 @@ todya i was learned about the Tostring internalls and hashcode
 
 
 
+mpa
 
-
-                             
+Internals of hashmap
+: f
 
 
 
