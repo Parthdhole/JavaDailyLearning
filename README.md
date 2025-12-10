@@ -302,10 +302,20 @@ todya i was learned about the Tostring internalls and hashcode
 
 
 
-mpa
+HashCode() of a key is first generated, and then a hash function is applied to that hash value to calculate the index of the bucket in the HashMap. This index decides where the key-value pair will be stored. The purpose of using a hash function is to convert a potentially large hash value into a valid index within the internal array size. This approach reduces collisions and provides efficient lookup performance.”
 
-Internals of hashmap
-: fJ
+
+
+Linked HashMap:-it is implantation class if map interface where  having duplicates are not allow but insertion order is maintained
+
+Why it insertion order is maintained -> because it store in double LinkedList format because of this slow as compare to HashMap
+
+it having one constructure which contained access order=true then it can give the element that is not in use that display on the top
+
+
+
+
+
 
 
 
