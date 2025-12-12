@@ -314,6 +314,44 @@ it having one constructure which contained access order=true then it can give th
 
 
 
+  String[] str = {"Parth","om","amit it"};
+
+
+        for (int i =0;i<str.length;i++){
+            String s = str[i];
+            for (int j = 0; j < s.length(); j++) {
+                char ch = s.charAt(j);
+                System.out.println(ch);
+            }
+
+        }
+
+
+//        List<String>list= Arrays.asList(str);
+//        System.out.println(list);
+//        Collections.sort(list);
+//        System.out.println(list);
+//
+//        Set<String> listt = new TreeSet<>((o1, o2) ->o1.compareTo(o2));
+        CopyOnWriteArrayList<String> listt = new CopyOnWriteArrayList();
+         listt.add("parth");
+         listt.add("om");
+         listt.add("amit");
+         System.out.println(listt);
+//
+//        for(int i =0;i<3;i++){
+//            System.out.println(str[i]);
+//
+//        }
+//        // concurrent modification exception
+        for (String ss:listt){
+            System.out.println(ss);
+            listt.add("parth");
+        }
+
+    }
+}
+
 
 
 
