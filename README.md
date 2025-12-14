@@ -339,19 +339,7 @@ it having one constructure which contained access order=true then it can give th
          listt.add("amit");
          System.out.println(listt);
 //
-//        for(int i =0;i<3;i++){
-//            System.out.println(str[i]);
-//
-//        }
-//        // concurrent modification exception
-        for (String ss:listt){
-            System.out.println(ss);
-            listt.add("parth");
-        }
-
-    }
-}
-
+//    
 
 
 
