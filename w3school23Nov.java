@@ -70,7 +70,7 @@ public class w3school23Nov {
             }
         }
 
-        System.out.println("removing every thread elemntt form list by using loop");
+        System.out.println("removing every thread element form list by using loop");
 //       c1.remove(3);
 //       System.out.println(c1);
 //        for(int i=0;i<c1.size();i++){
