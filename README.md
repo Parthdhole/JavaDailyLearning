@@ -342,6 +342,12 @@ it having one constructure which contained access order=true then it can give th
 //    
 
 
+soting ex today addes here 
+1)buuble sort
+2)insertion sort
+3)cyclic sort
+
+
 
 
 
