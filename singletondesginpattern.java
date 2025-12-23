@@ -2,10 +2,15 @@ package com.DesignPatterns;
 
 public class singletondesginpattern {
     public static void main(String[] args) {
-        Singeton   ss= Singeton.getObject();
+        Singeton ss= Singeton.getObject();
         Singeton ss1 = Singeton.getObject();
-    System.out.println(ss.hashCode());
-    System.out.println(ss1.hashCode());
+        Singeton ss2 = new Singeton();
+        Singeton ss3 = new Singeton();
+
+
+
+        System.out.println(ss2.hashCode());
+    System.out.println(ss3.hashCode());
 
 
 
@@ -26,8 +31,8 @@ class Singeton{
         return singeton;
 
     }
-    private Singeton(){
-
+    // by making constructor public we can break the singleton
+    public Singeton(){
     }
 
 
