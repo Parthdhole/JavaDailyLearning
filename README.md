@@ -347,7 +347,7 @@ soting ex today addes here
 2)insertion sort
 3)cyclic sort
 
-
+we can do sporting in diffrent way and use in solve the diffrent problems
 
 
 
