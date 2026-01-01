@@ -216,6 +216,14 @@ by using this we can cannot be inherited the class , final method cannot be over
 
 
 
+
+
+race Condition :- more than one thread can are executing the same resource or variable there is possibility is share Variable output or value is wrong so all the theses are saying my condition is correct so it caked race Condition 
+
+critical sections :- the part of program have that has shared resources  is called critical section
+  - what happened inside it if any thread can access this section it check any one is there is not then enter and do lock it until it completer it after that other thread can access it
+
+
                                                       v
 
 
