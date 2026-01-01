@@ -361,7 +361,32 @@ work 24 dec:
 learning the  builder desgin pattern for batter code reusablity 
 it is creation type desgined pattern which  help give more feziblity to pass the parameter so need to create a constructore 
 
-yyrrrr
+
+thread vs Runnable
+->by extend thread class we can not cannot extends another class but by using runnable interface we can use achieve it
+->in thread approach we not achieve Multiple inheritance but in runnable it support
+ - Thread base approach is not recommend 
+
+Which one is better: Thread or Runnable? Why?
+->Java provides two ways to create a thread.
+Implementing Runnable is better and recommended because it supports multiple inheritance and separates task from thread.
+
+
+What is the start() method?
+->it is used to begin the execution of a new thread in Java.Internally, it calls the run() method and the thread is scheduled by thread schedular
+
+Can we call run() directly? What happens?
+Yes, we can call run() directly, but it does not start a new thread.it behave like normal method
+
+
+What is JVM role in thread execution?
+The JVM creates and manages threads, invokes the run() method, coordinates scheduling with the OS, and controls the thread lifecycle.
+
+Thread.currentThread() is a static method of the Thread class that returns a reference to the currently executing thread.
+
+
+life cycle of thread
+The Java thread lifecycle consists of New, Runnable, Running, Blocked/Waiting, and Terminated states managed by the JVM.
 
 
 
