@@ -29,6 +29,8 @@ class WaysToCreateObject{
     }
 
 }
+// we can achive loose couling in java
+
 
 
 
