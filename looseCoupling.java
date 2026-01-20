@@ -30,7 +30,8 @@ class WaysToCreateObject{
 
 }
 // we can achive loose couling in java
-// by using aggration in has a  realtion ship
+// by using aggration in has a realtion-ship
+// by using factory we also do this
 
 
 
