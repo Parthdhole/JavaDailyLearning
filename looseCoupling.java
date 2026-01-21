@@ -43,6 +43,10 @@ class WaysToCreateObject{
                     System.out.println("we can declared here indec values " + i +" "+j);
 
 
+                 // tragtting element is equal to string each pairsum i equal to traget
+                 
+
+
 
                     
 
