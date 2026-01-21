@@ -47,6 +47,14 @@ class WaysToCreateObject{
                  
 
 
+                 // reverser the string 
+    String s = "java";
+        String rev = "";
+        int count = 0;
+        for(int i=s.length()-1;i>=0;i--){
+            rev=rev+s.charAt(i);
+        }
+
 
                     
 
