@@ -34,6 +34,19 @@ class WaysToCreateObject{
 // by using factory we also do this
 
 
+        int arr[]={8,3,4,6,2};
+        int target=7;
+        for(int i=0;i< arr.length-1;i++){
+            for (int j=i+1;j<arr.length;j++){
+                if(arr[i]+arr[j]==target){
+
+                    System.out.println("we can declared here indec values " + i +" "+j);
+
+
+
+                    
+
+
 
 
 
