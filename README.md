@@ -392,6 +392,15 @@ The Java thread lifecycle consists of New, Runnable, Running, Blocked/Waiting, a
 
 
 
+                                                                                      Reflection
+
+Reflection is  feature of java that allow a programmer to inspect  and manipulate classes methods ,field, and constructure at runtime even if they are private 
+
+It is provided by the java.lang.reflect package.
+
+
+
+
 
 
                                                                 
