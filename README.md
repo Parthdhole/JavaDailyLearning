@@ -399,6 +399,13 @@ Reflection is  feature of java that allow a programmer to inspect  and manipulat
 It is provided by the java.lang.reflect package.
 
 
+✅ Key Points (Notes)
+Works at runtime
+Can access private members
+Breaks encapsulation
+Mostly used by frameworks like Spring & Hibernate
+the ex this in collection folder reflection package 
+
 
 
 
