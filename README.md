@@ -53,7 +53,7 @@ I will use private methods inside the interface (Java 9+) to avoid code duplicat
 
 3.What is polymorphism? 
 -same name but different from  is called polymorphism
-we can achieve the polymorphism with the help of method overriding and overloading 
+we can achieve the polymorphism with the help of method overriding and overlodaing
 
 2)Compile-Time Polymorphism (Method Overloading)
 -in this we should have same method name and input argument must be different  
