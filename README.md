@@ -16,7 +16,7 @@ it help to achive 1)data hiding ,improve code security and I also help for loose
       a)Why do we use Encapsulation?
       ->because it provide the controlled access and provide data integrity
 
-     b)What is the difference between Encapsulation and Abstraction?
+     b)What is the difference between Encapsulation and Abstarction?
         Encapsulation->hide the data by restricting direct access
                      ->Encapsulation is about how data is accessed
 
