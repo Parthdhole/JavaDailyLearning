@@ -408,6 +408,53 @@ the ex this in collection folder reflection package
 
 
 
+        // Case 1: String literal
+        String s1 = "Java";
+        String s2 = "Java";
+        Objects created: 1
+        Stored in String Constant Pool (SCP)
+       ➡ s1 and s2 point to same object
+
+        // Case 2: new keyword
+        String s3 = new String("Java");
+        String s4 = new String("Java");
+        Objects created: 2 (Heap)
+        SCP object already exists from Case 1
+       ➡ Total here = 2 new heap objects
+
+        // Case 3: literal + new
+        String s5 = "Hello";
+        String s6 = new String("Hello");
+        Objects created: 2
+        1 in SCP ("Hello")
+        1 in Heap (new String())
+
+        // Case 4: concat
+        String s7 = "Par";
+        String s8 = s7 + "th";
+        Objects created: 3
+        "Par" → SCP
+        "th" → SCP
+        "Parth" → Heap (runtime concat)
+
+        // Case 5: compile-time concat
+        String s9 = "Par" + "th";
+        Objects created: 1
+        Compiler optimizes it
+        "Parth" directly goes to SCP
+
+        // Case 6: intern()
+        String s10 = new String("World").intern();
+        Objects created: 2
+        "World" → Heap
+        "World" → SCP (if not already present)
+        The intern() method in Java is used to put a String object into a special memory area called the String Constant Pool and return its     
+        reference.
+
+
+
+
+
 
 
                                                                 
