@@ -464,6 +464,10 @@ the ex this in collection folder reflection package
         System.out.println(s3.equals(s4));   // ?
 
 
+        add the caching concpet
+        
+
+
 
 
 
